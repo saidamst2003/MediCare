@@ -59,9 +59,9 @@
         <div class="col-md-8">
             <div class="welcome-text">
                 <h1 class="display-4">Bienvenue sur DoctorRV</h1>
-                <p class="lead">Votre plateforme de rendez-vous médicaux en ligne</p>
+                <p class="lead">Votre plateforme de rendez-vous médicaux en ligne</p class="lead">
             </div>
-        </div>                                                                            
+        </div>
     </div>
 
     <div class="row justify-content-center">
