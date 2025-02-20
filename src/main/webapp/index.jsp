@@ -81,7 +81,7 @@
                 </div>
                 <div class="card-body">
                     <p class="card-text">Accedez a votre espace personnel pour gerer vos rendez-vous et vos patients.</p>
-                    <a href="patient.jsp" class="btn btn-success">Connexion Docteur</a>
+                    <a href="DOCTOR.jsp" class="btn btn-success">Connexion Docteur</a>
                 </div>
             </div>
         </div>
