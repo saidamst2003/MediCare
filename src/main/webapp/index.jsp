@@ -81,7 +81,7 @@
                 </div>
                 <div class="card-body">
                     <p class="card-text">Accedez a votre espace personnel pour gerer vos rendez-vous et vos patients.</p>
-                    <button class="btn btn-primary mt-3">Connexion Docteur</button>
+                    <a href="patient.jsp" class="btn btn-success">Connexion Docteur</a>
                 </div>
             </div>
         </div>
@@ -93,8 +93,8 @@
                 </div>
                 <div class="card-body">
                     <p class="card-text">Prenez rendez-vous avec vos medecins et consultez votre historique medical.</p>
-                    <a href="patient.jsp"></a>
-                    <button class="btn btn-success mt-3">Connexion Patient</button>
+                    <a href="patient.jsp" class="btn btn-success"> Connexion Patient</a>
+
                 </div>
             </div>
         </div>

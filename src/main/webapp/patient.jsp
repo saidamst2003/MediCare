@@ -68,9 +68,7 @@
         </div>
         <div class="d-grid gap-2">
           <button type="submit" class="btn btn-success">Connexion</button>
-          <a href="index.html" class="d-grid">
-            <button type="button" class="btn btn-secondary mt-2">Retour</button>
-          </a>
+          <a href="index.jsp" id="BTNR" class="btn btn-secondary mt-2">Retour</a>
         </div>
       </form>
     </div>
@@ -90,6 +88,20 @@
       console.log('Form submitted:', { username, email, telephone });
       // Add your form processing logic here
       alert('Formulaire soumis avec succès!');
+      document.addEventListener('DOMContentLoaded', function() {
+        // Form submission
+        document.getElementById('patientForm').addEventListener('submit', function(e) {
+          e.preventDefault();
+          const username = document.getElementById('username').value;
+          const email = document.getElementById('email').value;
+          const telephone = document.getElementById('telephone').value;
+
+          console.log('Form submitted:', { username, email, telephone });
+          // Add your form processing logic here
+          alert('Formulaire soumis avec succès!');
+        });
+
+      });
     });
   });
 </script>
