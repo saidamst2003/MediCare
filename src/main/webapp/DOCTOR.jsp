@@ -45,16 +45,14 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
         <a class="navbar-brand" href="#">DoctorRV</a>
-        <div class="navbar-nav ms-auto">
-            <a class="nav-link" href="logout.jsp">Déconnexion</a>
-        </div>
+
     </div>
 </nav>
 
 <div class="container">
     <div class="row">
         <div class="col-12">
-            <h2 class="section-title">Mes Rendez-vous à venir</h2>
+            <h2 class="section-title">Mes Rendez-vous a venir</h2>
         </div>
     </div>
 
@@ -64,7 +62,7 @@
             <!-- Example appointment card -->
             <div class="card appointment-card">
                 <div class="appointment-header">
-                    <h5 class="mb-0">Rendez-vous du 21 Février 2025</h5>
+                    <h5 class="mb-0">Rendez-vous du 21 Fe vrier 2025</h5>
                 </div>
                 <div class="card-body">
                     <div class="row">
@@ -73,7 +71,7 @@
                             <p><strong>Heure:</strong> 09:30</p>
                         </div>
                         <div class="col-md-4">
-                            <p><strong>Type:</strong> Consultation générale</p>
+                            <p><strong>Type:</strong> Consultation generale</p>
                             <p><strong>Durée:</strong> 30 minutes</p>
                         </div>
                         <div class="col-md-4 text-end">
@@ -87,7 +85,7 @@
             <!-- Another appointment card -->
             <div class="card appointment-card">
                 <div class="appointment-header">
-                    <h5 class="mb-0">Rendez-vous du 21 Février 2025</h5>
+                    <h5 class="mb-0">Rendez-vous du 21 Fevrier 2025</h5>
                 </div>
                 <div class="card-body">
                     <div class="row">
@@ -96,7 +94,7 @@
                             <p><strong>Heure:</strong> 10:30</p>
                         </div>
                         <div class="col-md-4">
-                            <p><strong>Type:</strong> Suivi médical</p>
+                            <p><strong>Type:</strong> Suivi medical</p>
                             <p><strong>Durée:</strong> 45 minutes</p>
                         </div>
                         <div class="col-md-4 text-end">

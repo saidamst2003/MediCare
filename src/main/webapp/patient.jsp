@@ -28,10 +28,7 @@
       font-weight: bold;
       padding: 15px 20px;
     }
-    .btn-primary {
-      background-color: #3498db;
-      border: none;
-    }
+
     .btn-success {
       background-color: #2ecc71;
       border: none;
@@ -80,22 +77,6 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">DoctorRV</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Accueil</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#"><i class="fas fa-calendar-alt"></i> Rendez-vous</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fas fa-user"></i> Mon Profil</a>
-          </li>
-        </ul>
-      </div>
     </div>
   </nav>
 
@@ -141,7 +122,7 @@
                       <input type="email" class="form-control" id="email" required>
                     </div>
                     <div class="mb-3">
-                      <label for="telephone" class="form-label">Téléphone</label>
+                      <label for="telephone" class="form-label">Telephone</label>
                       <input type="tel" class="form-control" id="telephone" required>
                     </div>
                     <div class="mb-3">
@@ -173,13 +154,13 @@
                       </select>
                     </div>
                     <div class="mb-3">
-                      <label for="doctorSelect" class="form-label">Médecin</label>
+                      <label for="doctorSelect" class="form-label">Medecin</label>
                       <select class="form-select" id="doctorSelect" required>
-                        <option value="" selected disabled>Choisir un médecin</option>
-                        <option value="dr-dupont">Dr. Dupont - Généraliste</option>
-                        <option value="dr-martin">Dr. Martin - Cardiologue</option>
-                        <option value="dr-robert">Dr. Robert - Dermatologue</option>
-                        <option value="dr-benali">Dr. Benali - Pédiatre</option>
+                        <option value="" selected disabled>Choisir un medecin</option>
+                        <option value="dr-zahrae">Dr. Dyani - Generaliste</option>
+                        <option value="dr-hajar">Dr. zerhouni - Cardiologue</option>
+                        <option value="dr-saida">Dr. mestoure - Dermatologue</option>
+                        <option value="dr-mustapha">Dr. ouadad - Pediatre</option>
                       </select>
                     </div>
                     <div class="mt-4 pt-2">
@@ -204,14 +185,14 @@
               <div class="appointment-card card p-3 appointment-confirmed">
                 <div class="d-flex justify-content-between align-items-center">
                   <div>
-                    <h5 class="mb-1">Dr. Martin - Cardiologue</h5>
+                    <h5 class="mb-1">Dr. zerhouni - Cardiologue</h5>
                     <p class="text-muted mb-1">
-                      <i class="far fa-calendar-alt"></i> 25 Février, 2025 - 10:30
+                      <i class="far fa-calendar-alt"></i> 25 Fevrier, 2025 - 10:30
                     </p>
-                    <p class="mb-0"><small><i class="far fa-comment"></i> Contrôle annuel</small></p>
+                    <p class="mb-0"><small><i class="far fa-comment"></i> Controle annuel</small></p>
                   </div>
                   <div class="text-end">
-                    <span class="badge bg-success status-badge mb-2">Confirmé</span>
+                    <span class="badge bg-success status-badge mb-2">Confirme</span>
                     <br>
                     <button class="btn btn-sm btn-outline-danger mt-1">
                       <i class="fas fa-times"></i> Annuler
@@ -223,11 +204,11 @@
               <div class="appointment-card card p-3 appointment-pending">
                 <div class="d-flex justify-content-between align-items-center">
                   <div>
-                    <h5 class="mb-1">Dr. Benali - Pédiatre</h5>
+                    <h5 class="mb-1">Dr. ouadad - Pediatre</h5>
                     <p class="text-muted mb-1">
                       <i class="far fa-calendar-alt"></i> 03 Mars, 2025 - 15:00
                     </p>
-                    <p class="mb-0"><small><i class="far fa-comment"></i> Consultation pour fièvre</small></p>
+                    <p class="mb-0"><small><i class="far fa-comment"></i> Consultation pour fievre</small></p>
                   </div>
                   <div class="text-end">
                     <span class="badge bg-warning text-dark status-badge mb-2">En attente</span>
@@ -242,14 +223,14 @@
               <div class="appointment-card card p-3 appointment-cancelled">
                 <div class="d-flex justify-content-between align-items-center">
                   <div>
-                    <h5 class="mb-1">Dr. Dupont - Généraliste</h5>
+                    <h5 class="mb-1">Dr. zerhouni - Generaliste</h5>
                     <p class="text-muted mb-1">
-                      <i class="far fa-calendar-alt"></i> 15 Février, 2025 - 09:00
+                      <i class="far fa-calendar-alt"></i> 15 Fevrier, 2025 - 09:00
                     </p>
                     <p class="mb-0"><small><i class="far fa-comment"></i> Prescription renouvellement</small></p>
                   </div>
                   <div class="text-end">
-                    <span class="badge bg-danger status-badge">Annulé</span>
+                    <span class="badge bg-danger status-badge">Annule</span>
                   </div>
                 </div>
               </div>
@@ -257,45 +238,6 @@
           </div>
         </div>
 
-        <!-- Annuler un rendez-vous -->
-        <div class="tab-pane fade" id="cancel-appointment" role="tabpanel">
-          <div class="card">
-            <div class="card-header">
-              <i class="fas fa-calendar-times"></i> Annuler un Rendez-vous
-            </div>
-            <div class="card-body">
-              <form id="cancelAppointmentForm">
-                <div class="mb-4">
-                  <label for="appointmentSelect" class="form-label">Sélectionner le rendez-vous à annuler</label>
-                  <select class="form-select" id="appointmentSelect" required>
-                    <option value="" selected disabled>Choisir un rendez-vous</option>
-                    <option value="appt-001">25 Fév 2025 - 10:30 - Dr. Martin (Cardiologue)</option>
-                    <option value="appt-002">03 Mar 2025 - 15:00 - Dr. Benali (Pédiatre)</option>
-                  </select>
-                </div>
-
-                <div class="mb-3">
-                  <label for="cancellationReason" class="form-label">Raison de l'annulation (optionnel)</label>
-                  <textarea class="form-control" id="cancellationReason" rows="3"></textarea>
-                </div>
-
-                <div class="alert alert-warning">
-                  <i class="fas fa-exclamation-triangle"></i> Attention: L'annulation d'un rendez-vous moins de 24 heures à l'avance pourrait entraîner des frais.
-                </div>
-
-                <div class="d-grid gap-2">
-                  <button type="submit" class="btn btn-danger">
-                    <i class="fas fa-calendar-times"></i> Confirmer l'annulation
-                  </button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 <script>
