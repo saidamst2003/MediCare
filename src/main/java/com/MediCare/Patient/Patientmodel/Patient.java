@@ -6,7 +6,8 @@ public class Patient {
     public int phoneNumber;
     public String EmailPaient;
 
-    public int getIdPatient() {
+
+    public int getIdPtient() {
         return idPatient;
     }
 
