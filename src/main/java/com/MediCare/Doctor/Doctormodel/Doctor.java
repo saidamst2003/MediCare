@@ -7,6 +7,8 @@ public class Doctor {
     private String Speciality;
 
 
+    public Doctor() {}
+
     public Doctor(int idDoctor, String doctorFirstName, String doctorLastName, String Speciality) {
         this.idDoctor = idDoctor;
         this.doctorFirstName = doctorFirstName;
@@ -46,4 +48,6 @@ public class Doctor {
     public void setDoctorFirstName(String doctorFirstName) {
         this.doctorFirstName = doctorFirstName;
     }
+
+
 }
